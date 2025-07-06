@@ -3,14 +3,6 @@
 @tailwind utilities;
 
 
-
-html, body {
-  @apply m-0 p-0 w-screen h-screen overflow-hidden bg-[#040720];
-}
-* {
-  box-sizing: border-box;
-}
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

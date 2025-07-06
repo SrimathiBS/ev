@@ -47,14 +47,11 @@ const SignupLoginForm = () => {
   e.preventDefault();
 
   if (role === 'manufacturer') {
-    // Navigate to dashboard
-    navigate('/manufacturer-dashboard');
-  } else {
-    // You can change this alert to actual navigation later
-    //alert(`Customer ${isSignup ? "sign up" : "login"} successful!`);
-    alert("Customer login successful (no dashboard yet)");
+  navigate('/manufacturer-dashboard');
+} else {
+  navigate('/home'); // ✅ navigate customer to Home.jsx
+}
   }
-};
 
 
   return (
