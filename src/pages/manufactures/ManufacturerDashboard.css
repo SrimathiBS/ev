@@ -12,7 +12,9 @@ html {
 .dashboard-root {
   display: flex;
   min-height: 100vh;
+  height: auto; 
   overflow-y: auto;
+  
 }
 
 .sidebar {
@@ -58,6 +60,7 @@ html {
   flex: 1;
   padding: 30px;
   overflow-y: auto;
+  height: 100vh;
 }
 
 .btn-dark:hover {
